@@ -1,0 +1,215 @@
+<!-- ▼ 五島 求人情報ページ 改善HTML（WordPressカスタムHTMLブロック用） -->
+
+<!-- ページヘッダー -->
+<div style="background: linear-gradient(135deg, #1a5c3a 0%, #2d9a5f 100%); color: #fff; padding: 32px 24px; border-radius: 8px; margin-bottom: 32px; text-align: center;">
+  <h1 style="font-size: 1.8em; font-weight: bold; margin: 0 0 12px 0; line-height: 1.4;">💼 五島市の最新求人情報</h1>
+  <p style="font-size: 1em; margin: 0; opacity: 0.9;">毎日更新｜移住・Uターン・Iターン向け仕事探しをサポート</p>
+</div>
+
+<!-- 特徴バナー -->
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 32px;">
+  <div style="background: #f0fff4; border: 2px solid #27ae60; border-radius: 8px; padding: 16px; text-align: center;">
+    <div style="font-size: 2em; margin-bottom: 6px;">📅</div>
+    <strong style="font-size: 0.85em; color: #1a5c3a;">毎日更新</strong>
+    <p style="font-size: 0.8em; color: #555; margin: 4px 0 0 0;">ハローワーク最新データを<br>毎日自動取得</p>
+  </div>
+  <div style="background: #f0fff4; border: 2px solid #27ae60; border-radius: 8px; padding: 16px; text-align: center;">
+    <div style="font-size: 2em; margin-bottom: 6px;">🗾</div>
+    <strong style="font-size: 0.85em; color: #1a5c3a;">五島市特化</strong>
+    <p style="font-size: 0.8em; color: #555; margin: 4px 0 0 0;">五島市内の求人情報に<br>完全特化</p>
+  </div>
+  <div style="background: #f0fff4; border: 2px solid #27ae60; border-radius: 8px; padding: 16px; text-align: center;">
+    <div style="font-size: 2em; margin-bottom: 6px;">🏡</div>
+    <strong style="font-size: 0.85em; color: #1a5c3a;">移住サポート</strong>
+    <p style="font-size: 0.8em; color: #555; margin: 4px 0 0 0;">UIJターン向けの<br>仕事情報を掲載</p>
+  </div>
+</div>
+
+<!-- 目次 -->
+<div style="background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; padding: 20px 24px; margin-bottom: 32px;">
+  <p style="font-weight: bold; margin: 0 0 10px 0; font-size: 1em;">📋 このページの内容</p>
+  <ol style="margin: 0; padding-left: 1.4em; line-height: 2;">
+    <li><a href="#job-list" style="color: #27ae60; text-decoration: none;">最新求人一覧（ハローワーク情報）</a></li>
+    <li><a href="#job-trend" style="color: #27ae60; text-decoration: none;">五島市の仕事事情・求人傾向</a></li>
+    <li><a href="#work-guide" style="color: #27ae60; text-decoration: none;">五島で働く前に知っておくこと</a></li>
+    <li><a href="#job-search" style="color: #27ae60; text-decoration: none;">職種別求人を探す</a></li>
+    <li><a href="#faq" style="color: #27ae60; text-decoration: none;">よくある質問（FAQ）</a></li>
+  </ol>
+</div>
+
+<!-- 最新求人一覧（既存コンテンツ埋め込み箇所） -->
+<h2 id="job-list" style="font-size: 1.4em; border-bottom: 3px solid #27ae60; padding-bottom: 8px; margin-top: 40px; margin-bottom: 20px;">📋 最新求人一覧（直近2週間の新着）</h2>
+
+<div style="background: #f0fff4; border: 1px solid #27ae60; border-radius: 8px; padding: 20px 24px; margin-bottom: 24px;">
+  <p style="margin: 0; font-size: 0.95em; line-height: 1.8;">
+    以下は五島市のハローワークに掲載された新着求人情報です（直近2週間分・毎日更新）。<br>
+    <strong>最新の求人状況・詳細はハローワークインターネットサービスでご確認ください。</strong>
+  </p>
+  <div style="margin-top: 16px;">
+    <a href="https://www.hellowork.mhlw.go.jp/member/member_disp.html?action=init&screenId=010010" target="_blank" rel="noopener noreferrer"
+       style="display: inline-block; background: #27ae60; color: #fff; padding: 12px 24px; border-radius: 4px; text-decoration: none; font-size: 0.9em; font-weight: bold;">
+      ▶ ハローワーク 五島市の求人を検索する
+    </a>
+  </div>
+</div>
+
+<!-- ここに既存の求人一覧が表示される想定 -->
+<div style="border: 2px dashed #dee2e6; border-radius: 8px; padding: 24px; text-align: center; color: #888; margin-bottom: 32px; font-size: 0.9em;">
+  ※ ここに毎日自動更新の求人一覧が表示されます（既存の求人掲載プラグイン・ウィジェットを配置）
+</div>
+
+<!-- 五島市の求人傾向 -->
+<h2 id="job-trend" style="font-size: 1.4em; border-bottom: 3px solid #27ae60; padding-bottom: 8px; margin-top: 40px; margin-bottom: 20px;">📊 五島市の仕事事情・求人傾向</h2>
+
+<div style="background: #f8f9fa; border-radius: 8px; padding: 24px; margin-bottom: 24px;">
+  <h3 style="font-size: 1.05em; margin: 0 0 14px 0; color: #1a5c3a;">業種別の求人動向</h3>
+  <table style="width: 100%; border-collapse: collapse; font-size: 0.9em;">
+    <thead>
+      <tr style="background: #27ae60; color: #fff;">
+        <th style="padding: 10px 12px; text-align: left; border: 1px solid #ddd;">業種</th>
+        <th style="padding: 10px 12px; text-align: center; border: 1px solid #ddd;">求人傾向</th>
+        <th style="padding: 10px 12px; text-align: left; border: 1px solid #ddd;">特徴</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background: #fff;">
+        <td style="padding: 10px 12px; border: 1px solid #ddd;">医療・福祉</td>
+        <td style="padding: 10px 12px; border: 1px solid #ddd; text-align: center;">📈 増加中</td>
+        <td style="padding: 10px 12px; border: 1px solid #ddd;">看護師・介護士・ヘルパーなど常時多数</td>
+      </tr>
+      <tr style="background: #f8f9fa;">
+        <td style="padding: 10px 12px; border: 1px solid #ddd;">農業・漁業</td>
+        <td style="padding: 10px 12px; border: 1px solid #ddd; text-align: center;">🔄 安定</td>
+        <td style="padding: 10px 12px; border: 1px solid #ddd;">季節求人あり・未経験歓迎が多い</td>
+      </tr>
+      <tr style="background: #fff;">
+        <td style="padding: 10px 12px; border: 1px solid #ddd;">観光・サービス</td>
+        <td style="padding: 10px 12px; border: 1px solid #ddd; text-align: center;">📈 増加中</td>
+        <td style="padding: 10px 12px; border: 1px solid #ddd;">宿泊・飲食・観光ガイドなど</td>
+      </tr>
+      <tr style="background: #f8f9fa;">
+        <td style="padding: 10px 12px; border: 1px solid #ddd;">建設・土木</td>
+        <td style="padding: 10px 12px; border: 1px solid #ddd; text-align: center;">🔄 安定</td>
+        <td style="padding: 10px 12px; border: 1px solid #ddd;">インフラ整備で継続的な需要あり</td>
+      </tr>
+      <tr style="background: #fff;">
+        <td style="padding: 10px 12px; border: 1px solid #ddd;">製造業</td>
+        <td style="padding: 10px 12px; border: 1px solid #ddd; text-align: center;">🔄 安定</td>
+        <td style="padding: 10px 12px; border: 1px solid #ddd;">水産加工・食品製造など</td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="font-size: 0.8em; color: #888; margin: 10px 0 0 0;">※ ハローワーク五島市の掲載求人約400件（常時）を基に傾向を分析</p>
+</div>
+
+<!-- 五島で働く前に -->
+<h2 id="work-guide" style="font-size: 1.4em; border-bottom: 3px solid #27ae60; padding-bottom: 8px; margin-top: 40px; margin-bottom: 20px;">🏝️ 五島で働く前に知っておくこと</h2>
+
+<div style="display: grid; gap: 16px; margin-bottom: 28px;">
+
+  <div style="border: 1px solid #dee2e6; border-radius: 8px; padding: 20px; background: #fff;">
+    <h3 style="font-size: 1em; margin: 0 0 10px 0; color: #1a5c3a;">💰 給与の目安</h3>
+    <p style="font-size: 0.9em; margin: 0; line-height: 1.8; color: #444;">
+      五島市の給与水準は全国平均よりやや低い傾向がありますが、<strong>家賃・生活費も本土より安く抑えられる</strong>ため、実質的な可処分所得は都市部と変わらないケースも多いです。
+      医療・福祉職は経験・資格があれば全国水準に近い給与が期待できます。
+    </p>
+  </div>
+
+  <div style="border: 1px solid #dee2e6; border-radius: 8px; padding: 20px; background: #fff;">
+    <h3 style="font-size: 1em; margin: 0 0 10px 0; color: #1a5c3a;">🔄 ダブルワーク文化</h3>
+    <p style="font-size: 0.9em; margin: 0; line-height: 1.8; color: #444;">
+      五島市では<strong>副業・ダブルワークを推奨している事業所</strong>も多くあります。農業や漁業と組み合わせた働き方、観光シーズンに合わせた複数の仕事を掛け持ちするスタイルも一般的です。
+    </p>
+  </div>
+
+  <div style="border: 1px solid #dee2e6; border-radius: 8px; padding: 20px; background: #fff;">
+    <h3 style="font-size: 1em; margin: 0 0 10px 0; color: #1a5c3a;">🤝 移住支援制度の活用</h3>
+    <p style="font-size: 0.9em; margin: 0; line-height: 1.8; color: #444;">
+      五島市では移住者向けの各種支援制度があります。就業支援・起業支援・住宅支援など、
+      <strong>移住に合わせて活用できる補助金・助成金</strong>が充実しています。
+      詳しくは五島市の移住サイト「五島の島ぐらし」をご確認ください。
+    </p>
+  </div>
+
+</div>
+
+<!-- 職種別ショートカット -->
+<h2 id="job-search" style="font-size: 1.4em; border-bottom: 3px solid #27ae60; padding-bottom: 8px; margin-top: 40px; margin-bottom: 20px;">🔍 職種別求人を探す</h2>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 28px;">
+  <a href="https://www.hellowork.mhlw.go.jp/" target="_blank" rel="noopener noreferrer"
+     style="display: block; background: #fff; border: 2px solid #27ae60; border-radius: 8px; padding: 14px; text-align: center; text-decoration: none; color: #1a5c3a; font-size: 0.85em; font-weight: bold; transition: background 0.2s;">
+    🏥 医療・福祉
+  </a>
+  <a href="https://www.hellowork.mhlw.go.jp/" target="_blank" rel="noopener noreferrer"
+     style="display: block; background: #fff; border: 2px solid #27ae60; border-radius: 8px; padding: 14px; text-align: center; text-decoration: none; color: #1a5c3a; font-size: 0.85em; font-weight: bold;">
+    🌾 農業・漁業
+  </a>
+  <a href="https://www.hellowork.mhlw.go.jp/" target="_blank" rel="noopener noreferrer"
+     style="display: block; background: #fff; border: 2px solid #27ae60; border-radius: 8px; padding: 14px; text-align: center; text-decoration: none; color: #1a5c3a; font-size: 0.85em; font-weight: bold;">
+    🏨 観光・宿泊
+  </a>
+  <a href="https://www.hellowork.mhlw.go.jp/" target="_blank" rel="noopener noreferrer"
+     style="display: block; background: #fff; border: 2px solid #27ae60; border-radius: 8px; padding: 14px; text-align: center; text-decoration: none; color: #1a5c3a; font-size: 0.85em; font-weight: bold;">
+    🏗️ 建設・土木
+  </a>
+  <a href="https://www.hellowork.mhlw.go.jp/" target="_blank" rel="noopener noreferrer"
+     style="display: block; background: #fff; border: 2px solid #27ae60; border-radius: 8px; padding: 14px; text-align: center; text-decoration: none; color: #1a5c3a; font-size: 0.85em; font-weight: bold;">
+    🍽️ 飲食・食品
+  </a>
+  <a href="https://www.hellowork.mhlw.go.jp/" target="_blank" rel="noopener noreferrer"
+     style="display: block; background: #fff; border: 2px solid #27ae60; border-radius: 8px; padding: 14px; text-align: center; text-decoration: none; color: #1a5c3a; font-size: 0.85em; font-weight: bold;">
+    📋 事務・管理
+  </a>
+</div>
+
+<!-- FAQ -->
+<h2 id="faq" style="font-size: 1.4em; border-bottom: 3px solid #27ae60; padding-bottom: 8px; margin-top: 40px; margin-bottom: 20px;">❓ よくある質問（FAQ）</h2>
+
+<div style="margin-bottom: 28px;">
+
+  <details style="border: 1px solid #dee2e6; border-radius: 8px; margin-bottom: 12px; overflow: hidden;">
+    <summary style="padding: 16px 20px; font-weight: bold; cursor: pointer; background: #f8f9fa; font-size: 0.95em; list-style: none;">
+      Q. 五島への移住で仕事は見つかりますか？
+    </summary>
+    <div style="padding: 16px 20px; border-top: 1px solid #dee2e6; font-size: 0.9em; line-height: 1.8;">
+      はい、五島市ではハローワークのインターネットサービスに常時約400件程度の求人が掲載されています。
+      特に医療・福祉分野は慢性的に人材が不足しており、経験・資格があれば比較的見つけやすい状況です。
+      農業・漁業・観光業なども未経験者歓迎の求人が多くあります。
+    </div>
+  </details>
+
+  <details style="border: 1px solid #dee2e6; border-radius: 8px; margin-bottom: 12px; overflow: hidden;">
+    <summary style="padding: 16px 20px; font-weight: bold; cursor: pointer; background: #f8f9fa; font-size: 0.95em; list-style: none;">
+      Q. 未経験でも働ける仕事はありますか？
+    </summary>
+    <div style="padding: 16px 20px; border-top: 1px solid #dee2e6; font-size: 0.9em; line-height: 1.8;">
+      あります。農業・漁業・水産加工・介護補助・観光サービスなど、未経験歓迎の求人が多くあります。
+      「GO TO WORK 五島ワーク」では農業の収穫・加工業務など、季節的な仕事も紹介しています。
+      移住と合わせて新しいスキルを身につける機会と捉える移住者も多いです。
+    </div>
+  </details>
+
+  <details style="border: 1px solid #dee2e6; border-radius: 8px; margin-bottom: 12px; overflow: hidden;">
+    <summary style="padding: 16px 20px; font-weight: bold; cursor: pointer; background: #f8f9fa; font-size: 0.95em; list-style: none;">
+      Q. このページの求人情報はどこから取得していますか？
+    </summary>
+    <div style="padding: 16px 20px; border-top: 1px solid #dee2e6; font-size: 0.9em; line-height: 1.8;">
+      ハローワーク（厚生労働省運営の公共職業安定所）の求人情報を基にしています。
+      直近2週間分の新着求人を毎日自動更新しており、最新の求人状況を確認できます。
+      詳細・応募はハローワークインターネットサービスをご利用ください。
+    </div>
+  </details>
+
+</div>
+
+<!-- 関連情報 -->
+<div style="background: #f0fff4; border: 1px solid #27ae60; border-radius: 8px; padding: 20px 24px; margin-top: 32px;">
+  <h3 style="font-size: 1em; margin: 0 0 12px 0; color: #1a5c3a;">🏝️ 五島への移住・生活情報もご覧ください</h3>
+  <ul style="margin: 0; padding-left: 1.4em; line-height: 2; font-size: 0.9em;">
+    <li><a href="/?page_id=143" style="color: #27ae60;">🏠 五島市の不動産情報</a>｜仕事が決まったら次は住まい探し</li>
+    <li><a href="/?page_id=282" style="color: #27ae60;">🎉 五島市のイベント情報</a>｜五島の地域コミュニティに参加しよう</li>
+    <li><a href="/?page_id=104" style="color: #27ae60;">🚢 五島の欠航情報</a>｜五島への移動・アクセスを確認</li>
+  </ul>
+</div>
+<!-- ▲ 求人情報ページ 改善HTML ここまで -->
